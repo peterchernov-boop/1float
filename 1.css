@@ -35,3 +35,14 @@ footer {
         width: 100%;
     }
 }
+/*End of project*/
+
+.info {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    text-align: left;
+    color: #444;
+}
