@@ -1,48 +1,49 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    max-width: 1000px;
-    margin: auto;
-    font-size: 1.2em;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 1.2em;
 }
 header {
-    background: orange;
-    padding: 10px;        
+  background: orange;
+  padding: 10px;
 }
 .sidebar {
-    float: left;
-    background: green;
-    padding: 20px;
-    width: 250px;
-    height: 500px;
-    margin-right: 20px;
+  float: left;
+  background: green;
+  padding: 20px;
+  width: 250px;
+  height: 500px;
+  margin-right: 20px;
 }
 main {
-    background: grey;
-    padding: 20px;
-    height: 500px;    
+  background: grey;
+  padding: 20px;
+  height: 500px;
 }
 footer {
-    background: #ccc;
-    padding: 20px;
-    clear: both;
+  background: #ccc;
+  padding: 20px;
+  clear: both;
 }
 @media (max-width: 600px) {
-    .sidebar {
-        height: auto; 
-        float: none;
-        width: 100%;
-    }
+  .sidebar {
+    height: auto;
+    float: none;
+    width: 100%;
+  }
 }
 /*End of project*/
 
 .info {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    text-align: left;
-    color: #444;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  text-align: left;
+  color: #444;
+  font-size: 0.9em;
 }
