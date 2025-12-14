@@ -1,2 +1,3 @@
 On cloned 2nd branch.
 Added on GH.
+File addet to .gitignore.
